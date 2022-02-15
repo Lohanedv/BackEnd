@@ -1,0 +1,13 @@
+package model;
+
+public class Contato {
+	private static String nome;
+	private static String email;
+	private static String texto;
+
+
+}
+public Contato() {
+	
+}
+
