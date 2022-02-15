@@ -1,4 +1,5 @@
 import service.CadastroService;
+import service.ContatoService;
 
 public class Program {
 
@@ -7,6 +8,9 @@ public class Program {
 		
 		service.CadastroService cadastroService = new CadastroService();
 		cadastroService.save();
+		
+		service.ContatoService contatoService = new ContatoService();
+		contatoService.save();
 		
 		
 
